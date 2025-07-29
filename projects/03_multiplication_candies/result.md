@@ -1,225 +1,276 @@
-# ข้อ 3
+# 1
 ```c
-I (15573) COOKIES_MATH: 🧮 ขั้นตอนการคิด:
-I (15573) COOKIES_MATH:    คุกกี้ทั้งหมด ÷ จำนวนเพื่อน
-I (15573) COOKIES_MATH:    = 24 ÷ 6
-I (15573) COOKIES_MATH:    = 4 ชิ้นต่อคน
-I (15573) COOKIES_MATH: 
-I (15573) COOKIES_MATH: ✅ คำตอบ:
-I (15573) COOKIES_MATH:    แต่ละคนได้คุกกี้ 4 ชิ้น
-I (15573) COOKIES_MATH:    แบ่งได้พอดี ไม่มีเหลือ
-I (15573) COOKIES_MATH: 
-I (15573) COOKIES_MATH: 🎨 ภาพประกอบการแบ่ง:
-I (15573) COOKIES_MATH:    คุกกี้ทั้งหมด: 🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪 (24 ชิ้น)
-I (15573) COOKIES_MATH:
-I (15573) COOKIES_MATH:    เพื่อนคนที่ 1: 
-I (15573) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15573) COOKIES_MATH:    เพื่อนคนที่ 2: 
-I (15573) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15573) COOKIES_MATH:    เพื่อนคนที่ 3: 
-I (15573) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15573) COOKIES_MATH:    เพื่อนคนที่ 4: 
-I (15573) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15573) COOKIES_MATH:    เพื่อนคนที่ 5: 
-I (15573) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15573) COOKIES_MATH:    เพื่อนคนที่ 6: 
-I (15573) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15583) COOKIES_MATH: 
-I (15583) COOKIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
-I (15583) COOKIES_MATH:    คุกกี้ 15 ชิ้น แบ่งให้ 3 คน
-I (15583) COOKIES_MATH:    = 15 ÷ 3 = 5 ชิ้นต่อคน, เหลือ 0 ชิ้น
-I (15583) COOKIES_MATH:
-I (15583) COOKIES_MATH:    คุกกี้ 13 ชิ้น แบ่งให้ 4 คน
-I (15583) COOKIES_MATH:    = 13 ÷ 4 = 3 ชิ้นต่อคน, เหลือ 1 ชิ้น
-I (15583) COOKIES_MATH:    (หารไม่ลงตัว)
-I (15583) COOKIES_MATH: 
-I (15583) COOKIES_MATH: ⚠️  กรณีพิเศษ - หารด้วยศูนย์:
-I (15583) COOKIES_MATH:    ถ้าไม่มีเพื่อนมาแบ่ง (หารด้วย 0)
-I (15583) COOKIES_MATH:    ไม่สามารถคำนวณได้ในทางคณิตศาสตร์
-I (15583) COOKIES_MATH:    ในชีวิตจริง: คุกกี้จะเหลือทั้งหมด
-I (15583) COOKIES_MATH:
-I (15583) COOKIES_MATH: 🔄 ความสัมพันธ์กับการคูณ:
-I (15583) COOKIES_MATH:    การหาร: 24 ÷ 6 = 4
-I (15583) COOKIES_MATH:    การคูณ: 4 × 6 = 24
-I (15583) COOKIES_MATH:    การหารและการคูณเป็นการดำเนินการตรงข้ามกัน
-I (15583) COOKIES_MATH: 
-I (15583) COOKIES_MATH: 📊 สรุปการดำเนินการทั้งหมด:
-I (15593) COOKIES_MATH:    การบวก (+): เพิ่มจำนวน
-I (15593) COOKIES_MATH:    การลบ (-): ลดจำนวน
-I (15593) COOKIES_MATH:    การคูณ (×): บวกซ้ำๆ หลายชุด
-I (15593) COOKIES_MATH:    การหาร (÷): แบ่งออกเป็นกลุ่มเท่าๆ กัน
-I (15593) COOKIES_MATH:
-I (15593) COOKIES_MATH: 🎓 แนวคิดขั้นสูง:
-I (15593) COOKIES_MATH:    1. การหารจะได้ผลหาร (quotient) และเศษ (remainder)
-I (15593) COOKIES_MATH:    2. ในภาษา C:
-I (15593) COOKIES_MATH:       ผลหาร = a / b
-I (15593) COOKIES_MATH:       เศษ = a % b
-I (15593) COOKIES_MATH:    3. การตรวจสอบการหารด้วยศูนย์เป็นสิ่งสำคัญ
-I (15593) COOKIES_MATH:    4. การหารด้วย 1 จะได้ตัวเลขเดิม
-I (15593) COOKIES_MATH:    5. การหารตัวเลขด้วยตัวมันเองจะได้ 1
-I (15593) COOKIES_MATH:
-I (15593) COOKIES_MATH: 📚 สิ่งที่เรียนรู้:
-I (15593) COOKIES_MATH:    1. การหารเลข (Division): a ÷ b = c
-I (15593) COOKIES_MATH:    2. การใช้ Modulo operator (%) หาเศษ
-I (15593) COOKIES_MATH:    3. การตรวจสอบการหารด้วยศูนย์
-I (15593) COOKIES_MATH:    4. ความแตกต่างระหว่างหารลงตัวและไม่ลงตัว
-I (15593) COOKIES_MATH:    5. ความสัมพันธ์ระหว่างการหารและการคูณ
-I (15593) COOKIES_MATH:    6. การจัดการกรณีพิเศษ (Error Handling)
-I (15593) COOKIES_MATH:
-I (15593) COOKIES_MATH: 🎉 จบโปรแกรมแบ่งคุกกี้!
-I (15593) COOKIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 05_mixed_shopping
-I (17603) main_task: Returned from app_main()
+I (15767) CANDIES_MATH: 🧮 ขั้นตอนการคิด:
+I (15767) CANDIES_MATH:    จำนวนถุง × ลูกอมต่อถุง
+I (15767) CANDIES_MATH:    = 7 × 8
+I (15767) CANDIES_MATH:    = 56 เม็ด
+I (15767) CANDIES_MATH: 
+I (15767) CANDIES_MATH: ✅ คำตอบ:
+I (15767) CANDIES_MATH:    มีลูกอมทั้งหมด 56 เม็ด
+I (15767) CANDIES_MATH:
+I (15767) CANDIES_MATH: 🎨 ภาพประกอบ:
+I (15767) CANDIES_MATH:    ถุงที่ 1: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15767) CANDIES_MATH:    ถุงที่ 2: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15767) CANDIES_MATH:    ถุงที่ 3: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15767) CANDIES_MATH:    ถุงที่ 4: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15767) CANDIES_MATH:    ถุงที่ 5: 🍬🍬🍬🍬🍬🍬🍬🍬(8 เม็ด)
+I (15767) CANDIES_MATH:    รวม:     56 เม็ด
+I (15767) CANDIES_MATH: 
+I (15767) CANDIES_MATH: 🔄 เปรียบเทียบกับการบวกซ้ำๆ:
+I (15767) CANDIES_MATH:    การคูณ: 7 × 8 = 56
+I (15767) CANDIES_MATH:    การบวกซ้ำๆ: 
+I (15767) CANDIES_MATH:                   8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8 = 56
+I (15777) CANDIES_MATH:    ผลลัพธ์เหมือนกัน! การคูณคือการบวกซ้ำๆ
+I (15777) CANDIES_MATH:
+I (15777) CANDIES_MATH: 📊 ตารางสูตรคูณ 8:
+I (15777) CANDIES_MATH:    1 × 8 = 8
+I (16077) CANDIES_MATH:    2 × 8 = 16
+I (16377) CANDIES_MATH:    3 × 8 = 24
+I (16677) CANDIES_MATH:    4 × 8 = 32
+I (16977) CANDIES_MATH:    5 × 8 = 40
+I (17277) CANDIES_MATH:    6 × 8 = 48
+I (17577) CANDIES_MATH:    7 × 8 = 56
+I (17877) CANDIES_MATH:    8 × 8 = 64
+I (18177) CANDIES_MATH:    9 × 8 = 72
+I (18477) CANDIES_MATH:    10 × 8 = 80
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
+I (18777) CANDIES_MATH:    ถ้ามีถุงลูกอม 3 ถุง ถุงละ 8 เม็ด
+I (18777) CANDIES_MATH:    จะได้ลูกอม 3 × 8 = 24 เม็ด
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH:    ถ้ามีถุงลูกอม 7 ถุง ถุงละ 4 เม็ด
+I (18777) CANDIES_MATH:    จะได้ลูกอม 7 × 4 = 28 เม็ด
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 🔄 เปรียบเทียบการดำเนินการ:
+I (18777) CANDIES_MATH:    การบวก (+): เพิ่มจำนวน (เช่น ไข่ 4 + 2 = 6)
+I (18777) CANDIES_MATH:    การลบ (-): ลดจำนวน (เช่น ของเล่น 8 - 3 = 5)
+I (18777) CANDIES_MATH:    การคูณ (×): บวกซ้ำๆ (เช่น ลูกอม 5 × 6 = 30)
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 🎓 แนวคิดขั้นสูง:
+I (18777) CANDIES_MATH:    1. การคูณมีคุณสมบัติการสับเปลี่ยน:
+I (18777) CANDIES_MATH:       7 × 8 = 8 × 7 = 56
+I (18777) CANDIES_MATH:    2. การคูณด้วย 0 จะได้ 0 เสมอ:
+I (18777) CANDIES_MATH:       7 × 0 = 0 (ไม่มีถุงลูกอม)
+I (18777) CANDIES_MATH:    3. การคูณด้วย 1 จะได้ตัวเลขเดิม:
+I (18777) CANDIES_MATH:       8 × 1 = 8 (มีถุงเดียว)
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 📚 สิ่งที่เรียนรู้:
+I (18777) CANDIES_MATH:    1. การคูณเลข (Multiplication): a × b = c
+I (18777) CANDIES_MATH:    2. การใช้ for loop สำหรับการทำซ้ำ
+I (18777) CANDIES_MATH:    3. ความสัมพันธ์ระหว่างการคูณและการบวกซ้ำๆ
+I (18777) CANDIES_MATH:    4. คุณสมบัติพิเศษของการคูณ
+I (18777) CANDIES_MATH:    5. การแสดงผลแบบตาราง
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 🎉 จบโปรแกรมนับลูกอมในถุง!
+I (18777) CANDIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 04_division_cookies
+I (20787) main_task: Returned from app_main()
 ```
 # 2
 ```c
-I (15577) COOKIES_MATH: 🧮 ขั้นตอนการคิด:
-I (15577) COOKIES_MATH:    คุกกี้ทั้งหมด ÷ จำนวนเพื่อน
-I (15577) COOKIES_MATH:    = 24 ÷ 6
-I (15577) COOKIES_MATH:    = 4 ชิ้นต่อคน
-I (15577) COOKIES_MATH: 
-I (15577) COOKIES_MATH: ✅ คำตอบ:
-I (15577) COOKIES_MATH:    แต่ละคนได้คุกกี้ 4 ชิ้น
-I (15577) COOKIES_MATH: ✅ หารลงตัว! ทุกคนได้เท่ากัน
-I (15577) COOKIES_MATH:    แบ่งได้พอดี ไม่มีเหลือ
-I (15577) COOKIES_MATH: 
-I (15577) COOKIES_MATH: 🎨 ภาพประกอบการแบ่ง:
-I (15577) COOKIES_MATH:    คุกกี้ทั้งหมด: 🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪 (24 ชิ้น)
-I (15577) COOKIES_MATH: 
-I (15577) COOKIES_MATH:    เพื่อนคนที่ 1: 
-I (15577) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15577) COOKIES_MATH:    เพื่อนคนที่ 2: 
-I (15577) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15577) COOKIES_MATH:    เพื่อนคนที่ 3: 
-I (15577) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15577) COOKIES_MATH:    เพื่อนคนที่ 4: 
-I (15577) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15577) COOKIES_MATH:    เพื่อนคนที่ 5: 
-I (15577) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15577) COOKIES_MATH:    เพื่อนคนที่ 6: 
-I (15587) COOKIES_MATH: 🍪🍪🍪🍪 (4 ชิ้น)
-I (15587) COOKIES_MATH:
-I (15587) COOKIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
-I (15587) COOKIES_MATH:    คุกกี้ 15 ชิ้น แบ่งให้ 3 คน
-I (15587) COOKIES_MATH:    = 15 ÷ 3 = 5 ชิ้นต่อคน, เหลือ 0 ชิ้น
-I (15587) COOKIES_MATH:
-I (15587) COOKIES_MATH:    คุกกี้ 13 ชิ้น แบ่งให้ 4 คน
-I (15587) COOKIES_MATH:    = 13 ÷ 4 = 3 ชิ้นต่อคน, เหลือ 1 ชิ้น
-I (15587) COOKIES_MATH:    (หารไม่ลงตัว)
-I (15587) COOKIES_MATH: 
-I (15587) COOKIES_MATH: ⚠️  กรณีพิเศษ - หารด้วยศูนย์:
-I (15587) COOKIES_MATH:    ถ้าไม่มีเพื่อนมาแบ่ง (หารด้วย 0)
-I (15587) COOKIES_MATH:    ไม่สามารถคำนวณได้ในทางคณิตศาสตร์
-I (15587) COOKIES_MATH:    ในชีวิตจริง: คุกกี้จะเหลือทั้งหมด
-I (15587) COOKIES_MATH: 
-I (15587) COOKIES_MATH: 🔄 ความสัมพันธ์กับการคูณ:
-I (15587) COOKIES_MATH:    การหาร: 24 ÷ 6 = 4
-I (15587) COOKIES_MATH:    การคูณ: 4 × 6 = 24
-I (15587) COOKIES_MATH:    การหารและการคูณเป็นการดำเนินการตรงข้ามกัน
-I (15587) COOKIES_MATH:
-I (15587) COOKIES_MATH: 📊 สรุปการดำเนินการทั้งหมด:
-I (15587) COOKIES_MATH:    การบวก (+): เพิ่มจำนวน
-I (15587) COOKIES_MATH:    การลบ (-): ลดจำนวน
-I (15587) COOKIES_MATH:    การคูณ (×): บวกซ้ำๆ หลายชุด
-I (15587) COOKIES_MATH:    การหาร (÷): แบ่งออกเป็นกลุ่มเท่าๆ กัน
-I (15587) COOKIES_MATH:
-I (15587) COOKIES_MATH: 🎓 แนวคิดขั้นสูง:
-I (15587) COOKIES_MATH:    1. การหารจะได้ผลหาร (quotient) และเศษ (remainder)
-I (15587) COOKIES_MATH:    2. ในภาษา C:
-I (15587) COOKIES_MATH:       ผลหาร = a / b
-I (15587) COOKIES_MATH:       เศษ = a % b
-I (15587) COOKIES_MATH:    3. การตรวจสอบการหารด้วยศูนย์เป็นสิ่งสำคัญ
-I (15587) COOKIES_MATH:    4. การหารด้วย 1 จะได้ตัวเลขเดิม
-I (15587) COOKIES_MATH:    5. การหารตัวเลขด้วยตัวมันเองจะได้ 1
-I (15587) COOKIES_MATH: 
-I (15587) COOKIES_MATH: 📚 สิ่งที่เรียนรู้:
-I (15587) COOKIES_MATH:    1. การหารเลข (Division): a ÷ b = c
-I (15597) COOKIES_MATH:    2. การใช้ Modulo operator (%) หาเศษ
-I (15597) COOKIES_MATH:    3. การตรวจสอบการหารด้วยศูนย
-I (15597) COOKIES_MATH:    4. ความแตกต่างระหว่างหารลงตัวและไม่ลงตัว
-I (15597) COOKIES_MATH:    5. ความสัมพันธ์ระหว่างการหารและการคูณ
-I (15597) COOKIES_MATH:    6. การจัดการกรณีพิเศษ (Error Handling)
-I (15597) COOKIES_MATH:
-I (15597) COOKIES_MATH: 🎉 จบโปรแกรมแบ่งคุกกี้!
-I (15597) COOKIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 05_mixed_shopping
-I (17597) main_task: Returned from app_main()
+I (16082) CANDIES_MATH: 🧮 ขั้นตอนการคิด:
+I (16082) CANDIES_MATH: มีลูกอม🍓สตรอเบอร์รี่ 3 ถุง แต่ละถุงมี 8 เม็ด
+I (16082) CANDIES_MATH: จะมีลูกอม🍓สตรอเบอร์รี่ทั้งหมด 3 × 8 = 24 เม็ด
+I (16082) CANDIES_MATH: มีลูกอม🍊ส้ม 2 ถุง แต่ละถุงมี 8 เม็ด
+I (16082) CANDIES_MATH: จะมีลูกอม🍊ส้มทั้งหมด 2 × 8 = 16 เม็ด
+I (16082) CANDIES_MATH: มีลูกอม🍇องุ่น 4 ถุง แต่ละถุงมี 8 เม็ด
+I (16082) CANDIES_MATH: จะมีลูกอม🍇องุ่นทั้งหมด 4 × 8 = 32 เม็ด
+I (16082) CANDIES_MATH: รวมลูกอม🍓🍊🍇ทั้งหมด 24 + 16 + 32 = 72 เม็ด
+I (16082) CANDIES_MATH: ✅ คำตอบ:
+I (16082) CANDIES_MATH:    มีลูกอมทั้งหมด 72 เม็ด
+I (16082) CANDIES_MATH: 
+I (16082) CANDIES_MATH: 🎨 ภาพประกอบ:
+I (16082) CANDIES_MATH:    ถุง🍓ที่ 1: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍓ที่ 2: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍓ที่ 3: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍊ที่ 4: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍊ที่ 5: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍇ที่ 6: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    รวม:     72 เม็ด
+I (16092) CANDIES_MATH:
+I (16092) CANDIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
+I (16092) CANDIES_MATH:    ถ้ามีถุงลูกอม 3 ถุง ถุงละ 8 เม็ด
+I (16092) CANDIES_MATH:    จะได้ลูกอม 3 × 8 = 24 เม็ด
+I (16092) CANDIES_MATH:
+I (16092) CANDIES_MATH:    ถ้ามีถุงลูกอม 7 ถุง ถุงละ 4 เม็ด
+I (16092) CANDIES_MATH:    จะได้ลูกอม 7 × 4 = 28 เม็ด
+I (16092) CANDIES_MATH: 
+I (16092) CANDIES_MATH: 🔄 เปรียบเทียบการดำเนินการ:
+I (16092) CANDIES_MATH:    การบวก (+): เพิ่มจำนวน (เช่น ไข่ 4 + 2 = 6)
+I (16092) CANDIES_MATH:    การลบ (-): ลดจำนวน (เช่น ของเล่น 8 - 3 = 5)
+I (16092) CANDIES_MATH:    การคูณ (×): บวกซ้ำๆ (เช่น ลูกอม 5 × 6 = 30)
+I (16092) CANDIES_MATH:
+I (16092) CANDIES_MATH: 🎓 แนวคิดขั้นสูง:
+I (16092) CANDIES_MATH:    1. การคูณมีคุณสมบัติการสับเปลี่ยน:
+I (16092) CANDIES_MATH:       9 × 8 = 8 × 9 = 72
+I (16092) CANDIES_MATH:    2. การคูณด้วย 0 จะได้ 0 เสมอ:
+I (16092) CANDIES_MATH:       9 × 0 = 0 (ไม่มีถุงลูกอม)
+I (16092) CANDIES_MATH:    3. การคูณด้วย 1 จะได้ตัวเลขเดิม:
+I (16092) CANDIES_MATH:       8 × 1 = 8 (มีถุงเดียว)
+I (16092) CANDIES_MATH: 
+I (16092) CANDIES_MATH: 📚 สิ่งที่เรียนรู้:
+I (16092) CANDIES_MATH:    1. การคูณเลข (Multiplication): a × b = c
+I (16092) CANDIES_MATH:    2. การใช้ for loop สำหรับการทำซ้ำ
+I (16092) CANDIES_MATH:    3. ความสัมพันธ์ระหว่างการคูณและการบวกซ้ำๆ
+I (16092) CANDIES_MATH:    4. คุณสมบัติพิเศษของการคูณ
+I (16092) CANDIES_MATH:    5. การแสดงผลแบบตาราง
+I (16092) CANDIES_MATH:
+I (16102) CANDIES_MATH: 🎉 จบโปรแกรมนับลูกอมในถุง!
+I (16102) CANDIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 04_division_cookies
+I (18102) main_task: Returned from app_main()
 ```
 # 3
 ```c
-I (16476) COOKIES_MATH: 🔍 คุกกี้ 30 ชิ้น หารลงตัวกับ:
-I (16476) COOKIES_MATH:    ✅ 1 คน → คนละ 30 ชิ้น
-I (16476) COOKIES_MATH:    ✅ 2 คน → คนละ 15 ชิ้น
-I (16476) COOKIES_MATH:    ✅ 3 คน → คนละ 10 ชิ้น
-I (16476) COOKIES_MATH:    ✅ 5 คน → คนละ 6 ชิ้น
-I (16476) COOKIES_MATH:    ✅ 6 คน → คนละ 5 ชิ้น
-I (16476) COOKIES_MATH:    ✅ 10 คน → คนละ 3 ชิ้น
-I (16476) COOKIES_MATH: 🧮 ขั้นตอนการคิด:
-I (16476) COOKIES_MATH:    คุกกี้ทั้งหมด ÷ จำนวนเพื่อน
-I (16476) COOKIES_MATH:    = 30 ÷ 6
-I (16476) COOKIES_MATH:    = 5 ชิ้นต่อคน
-I (16476) COOKIES_MATH: 
-I (16476) COOKIES_MATH: ✅ คำตอบ:
-I (16476) COOKIES_MATH:    แต่ละคนได้คุกกี้ 5 ชิ้น
-I (16476) COOKIES_MATH: ✅ หารลงตัว! ทุกคนได้เท่ากัน
-I (16476) COOKIES_MATH:    แบ่งได้พอดี ไม่มีเหลือ
-I (16476) COOKIES_MATH:
-I (16476) COOKIES_MATH: 🎨 ภาพประกอบการแบ่ง:
-I (16476) COOKIES_MATH:    คุกกี้ทั้งหมด: 🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪 (30 ชิ้น)
-I (16476) COOKIES_MATH:
-I (16476) COOKIES_MATH:    เพื่อนคนที่ 1: 
-I (16476) COOKIES_MATH: 🍪🍪🍪🍪 (5 ชิ้น)
-I (16476) COOKIES_MATH:    เพื่อนคนที่ 2: 
-I (16476) COOKIES_MATH: 🍪🍪🍪🍪 (5 ชิ้น)
-I (16476) COOKIES_MATH:    เพื่อนคนที่ 3: 
-I (16476) COOKIES_MATH: 🍪🍪🍪🍪 (5 ชิ้น)
-I (16476) COOKIES_MATH:    เพื่อนคนที่ 4: 
-I (16476) COOKIES_MATH: 🍪🍪🍪🍪 (5 ชิ้น)
-I (16486) COOKIES_MATH:    เพื่อนคนที่ 5: 
-I (16486) COOKIES_MATH: 🍪🍪🍪🍪 (5 ชิ้น)
-I (16486) COOKIES_MATH:    เพื่อนคนที่ 6: 
-I (16486) COOKIES_MATH: 🍪🍪🍪🍪 (5 ชิ้น)
-I (16486) COOKIES_MATH: 
-I (16486) COOKIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
-I (16486) COOKIES_MATH:    คุกกี้ 15 ชิ้น แบ่งให้ 3 คน
-I (16486) COOKIES_MATH:    = 15 ÷ 3 = 5 ชิ้นต่อคน, เหลือ 0 ชิ้น
-I (16486) COOKIES_MATH: 
-I (16486) COOKIES_MATH:    คุกกี้ 13 ชิ้น แบ่งให้ 4 คน
-I (16486) COOKIES_MATH:    = 13 ÷ 4 = 3 ชิ้นต่อคน, เหลือ 1 ชิ้น
-I (16486) COOKIES_MATH:    (หารไม่ลงตัว)
-I (16486) COOKIES_MATH: 
-I (16486) COOKIES_MATH: ⚠️  กรณีพิเศษ - หารด้วยศูนย์:
-I (16486) COOKIES_MATH:    ถ้าไม่มีเพื่อนมาแบ่ง (หารด้วย 0)
-I (16486) COOKIES_MATH:    ไม่สามารถคำนวณได้ในทางคณิตศาสตร์
-I (16486) COOKIES_MATH:    ในชีวิตจริง: คุกกี้จะเหลือทั้งหมด
-I (16486) COOKIES_MATH:
-I (16486) COOKIES_MATH: 🔄 ความสัมพันธ์กับการคูณ:
-I (16486) COOKIES_MATH:    การหาร: 30 ÷ 6 = 5
-I (16486) COOKIES_MATH:    การคูณ: 5 × 6 = 30
-I (16486) COOKIES_MATH:    การหารและการคูณเป็นการดำเนินการตรงข้ามกัน
-I (16486) COOKIES_MATH:
-I (16486) COOKIES_MATH: 📊 สรุปการดำเนินการทั้งหมด:
-I (16486) COOKIES_MATH:    การบวก (+): เพิ่มจำนวน
-I (16496) COOKIES_MATH:    การลบ (-): ลดจำนวน
-I (16496) COOKIES_MATH:    การคูณ (×): บวกซ้ำๆ หลายชุด
-I (16496) COOKIES_MATH:    การหาร (÷): แบ่งออกเป็นกลุ่มเท่าๆ กัน
-I (16496) COOKIES_MATH:
-I (16496) COOKIES_MATH: 🎓 แนวคิดขั้นสูง:
-I (16496) COOKIES_MATH:    1. การหารจะได้ผลหาร (quotient) และเศษ (remainder)
-I (16496) COOKIES_MATH:    2. ในภาษา C:
-I (16496) COOKIES_MATH:       ผลหาร = a / b
-I (16496) COOKIES_MATH:       เศษ = a % b
-I (16496) COOKIES_MATH:    3. การตรวจสอบการหารด้วยศูนย์เป็นสิ่งสำคัญ
-I (16496) COOKIES_MATH:    4. การหารด้วย 1 จะได้ตัวเลขเดิม
-I (16496) COOKIES_MATH:    5. การหารตัวเลขด้วยตัวมันเองจะได้ 1
-I (16496) COOKIES_MATH: 
-I (16496) COOKIES_MATH: 📚 สิ่งที่เรียนรู้:
-I (16496) COOKIES_MATH:    1. การหารเลข (Division): a ÷ b = c
-I (16496) COOKIES_MATH:    2. การใช้ Modulo operator (%) หาเศษ
-I (16496) COOKIES_MATH:    3. การตรวจสอบการหารด้วยศูนย์
-I (16496) COOKIES_MATH:    4. ความแตกต่างระหว่างหารลงตัวและไม่ลงตัว
-I (16496) COOKIES_MATH:    5. ความสัมพันธ์ระหว่างการหารและการคูณ
-I (16506) COOKIES_MATH:    6. การจัดการกรณีพิเศษ (Error Handling)
-I (16506) COOKIES_MATH:
-I (16506) COOKIES_MATH: 🎉 จบโปรแกรมแบ่งคุกกี้!
-I (16506) COOKIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 05_mixed_shopping
-I (18506) main_task: Returned from app_main()
+I (15147) CANDIES_MATH: 🧮 ขั้นตอนการคิด:
+I (15147) CANDIES_MATH: มีลูกอม🍓สตรอเบอร์รี่ 3 ถุง แต่ละถุงมี 8 เม็ด
+I (15147) CANDIES_MATH: จะมีลูกอม🍓สตรอเบอร์รี่ทั้งหมด 3 × 8 = 24 เม็ด
+I (15147) CANDIES_MATH: มีลูกอม🍊ส้ม 2 ถุง แต่ละถุงมี 8 เม็ด
+I (15147) CANDIES_MATH: จะมีลูกอม🍊ส้มทั้งหมด 2 × 8 = 16 เม็ด
+I (15147) CANDIES_MATH: มีลูกอม🍇องุ่น 4 ถุง แต่ละถุงมี 8 เม็ด
+I (15147) CANDIES_MATH: จะมีลูกอม🍇องุ่นทั้งหมด 4 × 8 = 32 เม็ด
+I (15147) CANDIES_MATH: รวมลูกอม🍓🍊🍇ทั้งหมด 24 + 16 + 32 = 72 เม็ด
+I (15147) CANDIES_MATH: ✅ คำตอบ:
+I (15147) CANDIES_MATH:    มีลูกอมทั้งหมด 72 เม็ด
+I (15147) CANDIES_MATH: 
+I (15147) CANDIES_MATH: 🎨 ภาพประกอบ:
+I (15147) CANDIES_MATH:    ถุง🍓ที่ 1: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍓ที่ 2: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍓ที่ 3: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍊ที่ 4: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍊ที่ 5: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍇ที่ 6: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    รวม:     72 เม็ด
+I (15147) CANDIES_MATH: 
+I (15147) CANDIES_MATH: 📊 ตารางสูตรคูณของ 8:
+I (15147) CANDIES_MATH:    1 x 8 = 8
+I (15147) CANDIES_MATH:    2 x 8 = 16
+I (15147) CANDIES_MATH:    3 x 8 = 24
+I (15147) CANDIES_MATH:    4 x 8 = 32
+I (15147) CANDIES_MATH:    5 x 8 = 40
+I (15147) CANDIES_MATH:    6 x 8 = 48
+I (15147) CANDIES_MATH:    7 x 8 = 56
+I (15147) CANDIES_MATH:    8 x 8 = 64
+I (15147) CANDIES_MATH:    9 x 8 = 72
+I (15147) CANDIES_MATH:    10 x 8 = 80
+I (15157) CANDIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
+I (15157) CANDIES_MATH:    ถ้ามีถุงลูกอม 3 ถุง ถุงละ 8 เม็ด
+I (15157) CANDIES_MATH:    จะได้ลูกอม 3 × 8 = 24 เม็ด
+I (15157) CANDIES_MATH: 
+I (15157) CANDIES_MATH:    ถ้ามีถุงลูกอม 7 ถุง ถุงละ 4 เม็ด
+I (15157) CANDIES_MATH:    จะได้ลูกอม 7 × 4 = 28 เม็ด
+I (15157) CANDIES_MATH: 
+I (15157) CANDIES_MATH: 🔄 เปรียบเทียบการดำเนินการ:
+I (15157) CANDIES_MATH:    การบวก (+): เพิ่มจำนวน (เช่น ไข่ 4 + 2 = 6)
+I (15157) CANDIES_MATH:    การลบ (-): ลดจำนวน (เช่น ของเล่น 8 - 3 = 5)
+I (15157) CANDIES_MATH:    การคูณ (×): บวกซ้ำๆ (เช่น ลูกอม 5 × 6 = 30)
+I (15157) CANDIES_MATH:
+I (15157) CANDIES_MATH: 🎓 แนวคิดขั้นสูง:
+I (15157) CANDIES_MATH:    1. การคูณมีคุณสมบัติการสับเปลี่ยน:
+I (15157) CANDIES_MATH:       9 × 8 = 8 × 9 = 72
+I (15157) CANDIES_MATH:    2. การคูณด้วย 0 จะได้ 0 เสมอ:
+I (15157) CANDIES_MATH:       9 × 0 = 0 (ไม่มีถุงลูกอม)
+I (15157) CANDIES_MATH:    3. การคูณด้วย 1 จะได้ตัวเลขเดิม:
+I (15157) CANDIES_MATH:       8 × 1 = 8 (มีถุงเดียว)
+I (15157) CANDIES_MATH:
+I (15157) CANDIES_MATH: 📚 สิ่งที่เรียนรู้:
+I (15157) CANDIES_MATH:    1. การคูณเลข (Multiplication): a × b = c
+I (15157) CANDIES_MATH:    2. การใช้ for loop สำหรับการทำซ้ำ
+I (15157) CANDIES_MATH:    3. ความสัมพันธ์ระหว่างการคูณและการบวกซ้ำๆ
+I (15157) CANDIES_MATH:    4. คุณสมบัติพิเศษของการคูณ
+I (15157) CANDIES_MATH:    5. การแสดงผลแบบตาราง
+I (15157) CANDIES_MATH: 
+I (15157) CANDIES_MATH: 🎉 จบโปรแกรมนับลูกอมในถุง!
+I (15157) CANDIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 04_division_cookies
+I (17157) main_task: Returned from app_main()
+```
+# 4
+```c
+I (16778) CANDIES_MATH: 🧮 ขั้นตอนการคิด:
+I (16778) CANDIES_MATH: มีลูกอม🍓สตรอเบอร์รี่ 3 ถุง แต่ละถุงมี 8 เม็ด
+I (16778) CANDIES_MATH: จะมีลูกอม🍓สตรอเบอร์รี่ทั้งหมด 3 × 8 = 24 เม็ด
+I (16778) CANDIES_MATH: มีลูกอม🍊ส้ม 2 ถุง แต่ละถุงมี 8 เม็ด
+I (16778) CANDIES_MATH: จะมีลูกอม🍊ส้มทั้งหมด 2 × 8 = 16 เม็ด
+I (16778) CANDIES_MATH: มีลูกอม🍇องุ่น 4 ถุง แต่ละถุงมี 8 เม็ด
+I (16778) CANDIES_MATH: จะมีลูกอม🍇องุ่นทั้งหมด 4 × 8 = 32 เม็ด
+I (16778) CANDIES_MATH: รวมลูกอม🍓🍊🍇ทั้งหมด 24 + 16 + 32 = 72 เม็ด
+I (16778) CANDIES_MATH: ✅ คำตอบ:
+I (16778) CANDIES_MATH:    มีลูกอมทั้งหมด 72 เม็ด
+I (16778) CANDIES_MATH: 
+I (16778) CANDIES_MATH: 🎨 ภาพประกอบ:
+I (16778) CANDIES_MATH:    ถุง🍓ที่ 1: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍓ที่ 2: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍓ที่ 3: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍊ที่ 4: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍊ที่ 5: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍇ที่ 6: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    รวม:     72 เม็ด
+I (16778) CANDIES_MATH: 
+I (16778) CANDIES_MATH: 📊 ตารางสูตรคูณของ 8:
+I (16778) CANDIES_MATH:    1 x 8 = 8
+I (16778) CANDIES_MATH:    2 x 8 = 16
+I (16778) CANDIES_MATH:    3 x 8 = 24
+I (16778) CANDIES_MATH:    4 x 8 = 32
+I (16778) CANDIES_MATH:    5 x 8 = 40
+I (16778) CANDIES_MATH:    6 x 8 = 48
+I (16778) CANDIES_MATH:    7 x 8 = 56
+I (16788) CANDIES_MATH:    8 x 8 = 64
+I (16788) CANDIES_MATH:    9 x 8 = 72
+I (16788) CANDIES_MATH:    10 x 8 = 80
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 👥 แจกให้เพื่อน 12 คน:
+I (16788) CANDIES_MATH:    คนละ 6 เม็ด
+I (16788) CANDIES_MATH:    เหลือ 0 เม็ด
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 🧮 วิธีคิดแจกลูกอม:
+I (16788) CANDIES_MATH:    ลูกอมทั้งหมด: 72 เม็ด
+I (16788) CANDIES_MATH:    จำนวนเพื่อน: 12 คน
+I (16788) CANDIES_MATH:    ลูกอมที่แต่ละคนจะได้รับ = ลูกอมทั้งหมด ÷ จำนวนเพื่อน
+I (16788) CANDIES_MATH:    = 72 ÷ 12
+I (16788) CANDIES_MATH:    ลูกอมที่แต่ละคนได้รับ: 6 เม็ด
+I (16788) CANDIES_MATH:    หารเหลือเศษ = 0
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
+I (16788) CANDIES_MATH:    ถ้ามีถุงลูกอม 3 ถุง ถุงละ 8 เม็ด
+I (16788) CANDIES_MATH:    จะได้ลูกอม 3 × 8 = 24 เม็ด
+I (16788) CANDIES_MATH:
+I (16788) CANDIES_MATH:    ถ้ามีถุงลูกอม 7 ถุง ถุงละ 4 เม็ด
+I (16788) CANDIES_MATH:    จะได้ลูกอม 7 × 4 = 28 เม็ด
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 🔄 เปรียบเทียบการดำเนินการ:
+I (16788) CANDIES_MATH:    การบวก (+): เพิ่มจำนวน (เช่น ไข่ 4 + 2 = 6)
+I (16788) CANDIES_MATH:    การลบ (-): ลดจำนวน (เช่น ของเล่น 8 - 3 = 5)
+I (16788) CANDIES_MATH:    การคูณ (×): บวกซ้ำๆ (เช่น ลูกอม 5 × 6 = 30)
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 🎓 แนวคิดขั้นสูง:
+I (16788) CANDIES_MATH:    1. การคูณมีคุณสมบัติการสับเปลี่ยน:
+I (16788) CANDIES_MATH:       9 × 8 = 8 × 9 = 72
+I (16788) CANDIES_MATH:    2. การคูณด้วย 0 จะได้ 0 เสมอ:
+I (16788) CANDIES_MATH:       9 × 0 = 0 (ไม่มีถุงลูกอม)
+I (16788) CANDIES_MATH:    3. การคูณด้วย 1 จะได้ตัวเลขเดิม:
+I (16788) CANDIES_MATH:       8 × 1 = 8 (มีถุงเดียว)
+I (16788) CANDIES_MATH: 
+I (16798) CANDIES_MATH: 📚 สิ่งที่เรียนรู้:
+I (16798) CANDIES_MATH:    1. การคูณเลข (Multiplication): a × b = c
+I (16798) CANDIES_MATH:    2. การใช้ for loop สำหรับการทำซ้ำ
+I (16798) CANDIES_MATH:    3. ความสัมพันธ์ระหว่างการคูณและการบวกซ้ำๆ
+I (16798) CANDIES_MATH:    4. คุณสมบัติพิเศษของการคูณ
+I (16798) CANDIES_MATH:    5. การแสดงผลแบบตาราง
+I (16798) CANDIES_MATH:
+I (16798) CANDIES_MATH: 🎉 จบโปรแกรมนับลูกอมในถุง!
+I (16798) CANDIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 04_division_cookies
+I (18798) main_task: Returned from app_main()
 ```
